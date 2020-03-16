@@ -34,15 +34,7 @@ public class LoginPageTest extends TestBase{
 	 	myAccount = new MyAccountOverview();
 	 }
 	
-	/*
-	@Test(testName="TC001 - Login", description = "Login to the site", priority = 0)
-	public void loginTest() throws InterruptedException {
-		homePage.clickSignInLink();
-		loginPage.login("r.narayan@intershop.com", "intershop123");
-		myAccount.myAccountHeading();
-	}
-	*/
-	
+		
 	@DataProvider
 	public Object[][] getLoginData() throws InvalidFormatException {
 		Object data[][] = TestUtil.getTestData("login");
