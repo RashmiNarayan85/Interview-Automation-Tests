@@ -30,15 +30,6 @@ public void setUp() {
  	homePage = new HomePage();
  	register = new RegisterPage();
  }
-	/* 
-	@Test(testName="TC001 - Registration", description = "Create new account", priority = 0)
-	public void createNewAccountTest() throws InterruptedException {
-		homePage.clickRegisterLink();
-		register.createNewAccount("r.narayan@intershop.com", "r.narayan@intershop.com", "intershop123", "intershop123", "Australia",
-				"Rashmi", "Narayan", "19 Bennets Lane","3000","Victoria", "Melbourne", "0387878787");
-	
-	}
-	*/
 	
 	
 	@DataProvider
